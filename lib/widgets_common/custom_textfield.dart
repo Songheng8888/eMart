@@ -4,7 +4,7 @@ import 'package:shop_it_now/consts/colors.dart';
 import 'package:shop_it_now/consts/consts.dart';
 import 'package:shop_it_now/consts/strings.dart';
 
-Widget customTextField(String? title, String? hint, controller) {
+Widget customTextField(String? title, String? hint) {
   return Column(
     crossAxisAlignment: CrossAxisAlignment.start,
     children: [
